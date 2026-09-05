@@ -41,3 +41,24 @@ Edit
 /notes             # JavaScript concepts and explanations
 💡 About Me
 I'm a computer engineering student passionate about learning and growing as a software developer. Follow my progress and feel free to suggest improvements or collaborations!
+
+
+************goal
+Variables and data types
+Operators
+Conditions
+Loops
+Functions
+Arrays
+Objects
+Destructuring
+Spread and rest operators
+Array methods
+Modules
+Promises
+Async/Await
+Error handling
+
+Goal:
+
+Be able to write JavaScript programs independently and understand asynchronous programming.
