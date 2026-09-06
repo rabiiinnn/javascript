@@ -3,11 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Voting Eligibility Check</title>
+    <style>
+        body { font-family: sans-serif; margin: 40px; }
+        .success { color: green; font-weight: bold; }
+        .error { color: red; font-weight: bold; }
+    </style>
 </head>
 <body>
+
+    <h2>Voting Eligibility Form</h2>
     
-   <script src="revise.js"></script>
+    <!-- The HTML Form -->
+    <form id="votingForm">
+        <label for="userAge">Enter your age:</label>
+        <input type="number" id="userAge" min="0" max="120" required>
+        <button type="submit">Check Eligibility</button>
+    </form>
+
+    <!-- The Result Message Container -->
+    <p id="resultMessage"></p>
+
+    <!-- The JavaScript -->
+    <script src="function.js"></script>
+
 
 </body>
 </html>
+
